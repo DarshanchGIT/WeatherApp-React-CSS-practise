@@ -1,0 +1,78 @@
+.weather-container {
+  color:white;
+  height: 70vh;
+  width: 70vw; /* Changed from 100vh to 100vw for full width */
+  font-family: Poppins, sans-serif; /* Added generic font family for fallback */
+  /* background-color: lightblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;  
+}
+
+.weather-container h1 {
+  margin-top: -5vh;
+  margin-bottom: 2vh; /* Reduced bottom margin to avoid too much space */
+  font-size: 6rem;
+}
+
+.input-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-block h2 {
+  font-size: 2rem;
+  margin-bottom: 1vh; /* Changed to margin-bottom for better spacing */
+}
+
+.form-tag {
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 6vh;
+  border: 5px solid #7c57b2;
+  border-radius: 10px;
+  padding: 0 1rem; /* Added padding for better text spacing */
+}
+
+.city-name {
+  font-size: 1rem;
+}
+
+.weather-container button {
+  color: white;
+  margin-top: 3vh;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 6vh;
+  width: 20vw;
+  background-color: #5599ce;
+  border: 2.7px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.weather-container button:hover {
+  background-color: #4078c0; /* Darker shade for hover effect */
+  transform: scale(1.1); /* Slightly enlarges the button on hover */
+  box-shadow: 0 8px 10px #5599ce;; /* Adds shadow for a 3D effect */
+}
+
+.result-block {
+  color: black;
+  font-weight: 700;
+  font-size: 1.31rem;
+  margin-top: 3vh; /* Adjusted margin for proper spacing */
+  font-family: Poppins, sans-serif;
+  width: 20vw;
+  height: 20vh;
+  border: 3.5px solid #5599ce;
+  border-radius: 20px;
+  padding: 2rem; 
+  text-align: center; 
+  background-color: rgba(254, 254, 254, 0.3);
+  box-shadow: 0 0 30px 10px rgba(85, 153, 206, 0.7); /
+}
+
